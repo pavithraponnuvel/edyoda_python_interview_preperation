@@ -1,1 +1,57 @@
+1.What are the built-in data types in Python?
 
+Python has several built-in data types including integers, floats, strings, lists, tuples, dictionaries, sets, and more.
+
+2.Explain the difference between a list and a tuple.
+
+Lists are mutable, meaning their elements can be changed after creation, while tuples are immutable.
+Lists are defined using square brackets [], and tuples are defined using parentheses ().
+
+3.How do you convert one data type to another?
+
+You can use type conversion functions like int(), float(), str(), list(), tuple(), dict(), etc., to convert between different data types.
+
+4.What is type inference in Python?
+
+Type inference is the process by which Python automatically determines the data type of a variable based on its assigned value.
+
+5.Explain the concept of mutability and immutability in Python.
+
+Mutable objects can be modified after creation (e.g., lists, dictionaries), while immutable objects cannot be changed (e.g., integers, strings, tuples).
+6.How does dynamic typing work in Python?
+
+In Python, you don't need to declare the data type of a variable explicitly. The interpreter assigns the data type dynamically based on the value assigned to the variable.
+
+7.What is the difference between == and is operators?
+
+The == operator checks if the values of two objects are equal, while the is operator checks if two objects are the same object in memory.
+
+8.Explain the concept of type casting and provide an example.
+
+Type casting is the process of explicitly converting a variable from one data type to another. Example: x = float(5).
+
+9.How do you check the data type of a variable in Python?
+
+You can use the type() function to determine the data type of a variable. Example: print(type(5)) will output <class 'int'>.
+
+10.What is the NoneType?
+NoneType is a special data type in Python that represents the absence of a value or a null value.
+
+11.Explain the difference between shallow copy and deep copy.
+
+Shallow copy creates a new object, but does not recursively copy the nested objects within. Deep copy creates
+a completely independent copy of an object and all the objects nested within.
+
+12.How can you check if a variable is of a certain data type?
+
+You can use the isinstance() function to check if a variable is of a specific data type. Example: isinstance(5, int) will return True.
+
+13.What are type annotations in Python?
+
+Type annotations are a way to explicitly specify the expected data types of variables, function arguments,
+and return values to improve code readability and catch type-related errors early using tools like mypy.
+
+
+**********************************************************************************************************************************
+Remember to not only provide brief answers to these questions but also be prepared to discuss each topic in more detail 
+if the interviewer asks for further clarification.
