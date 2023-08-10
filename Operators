@@ -1,0 +1,41 @@
+1.What are operators in Python?
+Operators are special symbols that perform various operations on values or variables. 
+They are used to manipulate data and perform calculations.
+
+2.Differentiate between the '==' operator and the 'is' operator.
+The '==' operator is used to compare the values of two objects for equality, 
+while the 'is' operator is used to compare the memory location (identity) of two objects to check if they are the same object.
+
+3.Explain the difference between unary, binary, and ternary operators.
+Unary operators operate on a single operand, such as -x or not y.
+Binary operators operate on two operands, like x + y or a * b.
+Ternary operators are unique to Python and are represented as x if condition else y. 
+They provide a shorthand way of writing conditional expressions.
+
+4.What is operator overloading?
+Operator overloading allows you to define how operators work for user-defined classes. 
+For example, you can define how the + operator should behave for instances of a custom class.
+
+5.How can you achieve operator overloading in Python?
+Operator overloading is achieved by defining special methods in a class, 
+such as __add__ for the + operator, __sub__ for the - operator, etc.
+
+6.Explain short-circuiting in Python with regards to logical operators.
+Short-circuiting occurs when the evaluation of a logical expression stops as soon as the result is known. 
+For example, in the expression x and y, if x is False, the result is already determined to be False regardless of 
+the value of y, so y is not evaluated.
+
+7.What is the purpose of the // operator in Python?
+The // operator is used for floor division, which performs division and then rounds down the result to the nearest whole number.
+
+8.Describe the in operator and provide an example of its usage.
+The in operator is used to check if a value exists within a sequence, such as a list, tuple, or string.
+Example: 5 in [1, 3, 5, 7] returns True.
+
+9.Explain the += operator with an example.
+The += operator is used to add the right operand to the left operand and assign the result to the left operand. 
+Example: x += 5 is equivalent to x = x + 5.
+
+10.What is the difference between the or operator and the | operator?
+The or operator performs a logical OR operation on boolean values and short-circuits, 
+whereas the | operator performs a bitwise OR operation on integers.
