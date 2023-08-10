@@ -1,0 +1,2 @@
+# edyoda_python_interview_preperation
+python module interview preperation notes
