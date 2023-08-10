@@ -1,0 +1,66 @@
+Question 1: What is a function in Python?
+Answer: A function in Python is a block of reusable code that performs a specific task. 
+It takes some input, processes it, and returns an output.
+
+Question 2: How do you define a function in Python?
+Answer: You can define a function using the def keyword, followed by the function name, parameters, and a colon. 
+The function body is indented beneath.
+
+Question 3: How do you call a function?
+Answer: You call a function by using its name followed by parentheses, optionally passing arguments inside the parentheses.
+
+Question 4: How can you return a value from a function?
+Answer: You can use the return statement to return a value from a function. The returned value can be assigned to a 
+variable or used directly.
+
+Question 5: Can a function return multiple values?
+Answer: Yes, a function can return multiple values by returning them as a tuple, list, 
+or any other suitable data structure.
+
+Question 6: What is a lambda function?
+Answer: A lambda function is an anonymous (unnamed) function that can have any number of arguments but can only have one expression.
+It is defined using the lambda keyword.
+
+Question 7: How do you pass a function as an argument to another function?
+Answer: You can pass a function as an argument by using its name without parentheses.
+
+Question 8: What is the purpose of the global keyword in a function?
+Answer: The global keyword is used to indicate that a variable declared within a function should refer to a global variable,
+rather than creating a new local variable.
+
+Question 9: How do you document a function in Python?
+Answer: You can document a function using docstrings - a string placed immediately after the function definition.
+Docstrings provide information about the function's purpose, parameters, and return values.
+
+Question 10: What is recursion?
+Answer: Recursion is a technique where a function calls itself to solve a problem. It should have a base case to terminate the recursion and prevent infinite loops.
+
+Question 11: How can you handle exceptions in a function?
+Answer: You can use try, except, and finally blocks to handle exceptions within a function. The try block contains the code that might raise an exception, and the except block handles the exception if it occurs.
+
+Question 12: What is a decorator?
+Answer: A decorator is a higher-order function that modifies or enhances the behavior of other functions. It is often used to add functionality like logging, authentication, or validation to functions.
+
+Question 13: How do you define a default argument in a function?
+Answer: Default arguments are specified in the function definition using the assignment operator (=). If a value is not provided for that argument during function call, the default value will be used.
+
+Question 14: What is variable-length argument passing in functions?
+Answer: Variable-length argument passing allows a function to accept a variable number of arguments. It can be achieved using *args (for non-keyword arguments) and **kwargs (for keyword arguments).
+
+Question 15: How do you return multiple values from a function?
+Answer: Multiple values can be returned using tuples. The values are separated by commas, and the function call can unpack the tuple into separate variables.
+
+Question 16: Can a function modify a mutable object passed as an argument?
+Answer: Yes, a function can modify a mutable object (like a list or dictionary) that is passed as an argument since these objects are passed by reference.
+
+Question 17: What is the purpose of the __main__ function in Python?
+Answer: The __main__ function is the entry point of a Python script. Code within this block will be executed when the script is run directly, but not when it's imported as a module.
+
+Question 18: How can you prevent a function from modifying a mutable object argument?
+Answer: To prevent modification of a mutable object, you can create a copy of the object within the function or pass an immutable version of it.
+
+Question 19: How can you find the documentation of a Python function from the interactive shell?
+Answer: You can use the help() function or access the .__doc__ attribute of a function to see its documentation.
+
+Question 20: What is the purpose of the pass statement in a function?
+Answer: The pass statement is a placeholder that does nothing. It can be used in functions or loops when you want to have a valid code block that doesn't perform any action.
