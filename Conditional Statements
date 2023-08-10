@@ -1,0 +1,73 @@
+Question 1: What are conditional statements in Python?
+Conditional statements are used to execute different code blocks based on certain conditions. They allow you to control 
+the flow of your program based on whether a condition is true or false.
+
+Question 2: How do you write an if statement in Python?
+
+if condition:
+    # Code to be executed if the condition is true
+Question 3: What is the purpose of the else statement?
+The else statement is used to specify a code block that should be executed if the condition in the corresponding if statement is false.
+
+Question 4: How do you use the elif statement?
+The elif statement (short for "else if") is used to specify multiple conditions to be checked in sequence. If any of 
+the conditions is true, the corresponding code block is executed, and the rest are skipped.
+
+Question 5: How can you combine multiple conditions using logical operators?
+You can use logical operators like and, or, and not to combine multiple conditions in an if statement. For example:
+
+if condition1 and condition2:
+    # Code to be executed if both conditions are true
+Question 6: What is the purpose of the pass statement in conditional statements?
+The pass statement is a placeholder that does nothing. It is often used when a code block is required syntactically but you don't want 
+to execute any code.
+
+Question 7: How do you write nested if statements in Python?
+You can have if statements inside other if statements to create nested conditions. For example:
+
+
+if condition1:
+    if condition2:
+        # Code to be executed if both conditions are true
+Question 8: How can you use the ternary operator for conditional expressions?
+The ternary operator allows you to write a compact version of an if-else statement. It has the syntax: value_if_true 
+if condition else value_if_false.
+
+Question 9: What is the difference between == and is in Python?
+== is used for value comparison, while is is used to check if two objects refer to the same memory location (identity).
+
+Question 10: How can you handle multiple conditions using a switch-like statement in Python?
+Python doesn't have a traditional switch statement. You can use dictionaries or if-elif statements to achieve similar functionality.
+
+Question 11: Explain the concept of short-circuiting in conditional statements.
+Short-circuiting occurs when the evaluation of a logical expression stops as soon as the final result is determined. For example, 
+if the first part of an and expression is false, the second part won't be evaluated.
+
+Question 12: What does the assert statement do?
+The assert statement is used for debugging purposes. It checks if a given condition is true, and if not, it raises an AssertionError exception.
+
+Question 13: How can you handle exceptions using conditional statements?
+You can use a try-except block to catch and handle exceptions that may occur within a specific code block.
+
+Question 14: Can you have an else block along with a try-except block?
+Yes, you can have an else block after a try block. The code in the else block will be executed if no exceptions were raised in the try block.
+
+Question 15: Explain the concept of truthy and falsy values in Python.
+In Python, values that are considered "truthy" evaluate to True in a boolean context, and values that are "falsy" evaluate to False.
+For example, 0, None, and empty sequences (like an empty string or list) are falsy.
+
+Question 16: How can you use the all() and any() functions with conditional statements?
+all(iterable) returns True if all elements in the iterable are true. any(iterable) returns True if at least one element in the iterable is true.
+
+Question 17: How can you create a custom exception in Python?
+You can create a custom exception by defining a new class that inherits from the built-in Exception class.
+
+Question 18: How do you handle multiple exceptions using a single except block?
+You can enclose multiple exception types in a tuple and use that tuple as the argument to a single except block.
+
+Question 19: What is the purpose of the finally block in exception handling?
+The finally block is used to specify a code block that will be executed no matter what, whether an exception was raised or not.
+
+Question 20: When should you use a try block without an except block?
+In some cases, you may use a try block without an except block when you want to ensure that certain cleanup or finalization code is 
+executed, regardless of whether an exception occurs.
